@@ -23,11 +23,31 @@
     <p><a href="code.R">Download R Code</a></p>
 
     <p><strong>Instructions to Run the Code:</strong></p>
-    <ol>
-        <li>Download the code file from the link above.</li>
-        <li>Install required R packages: [list the packages].</li>
-        <li>Run the code in RStudio to reproduce the results.</li>
-    </ol>
+<ol>
+    <li>Install R and RStudio (if not already installed). You can download them from:
+        <ul>
+            <li><a href="https://cran.r-project.org/">Download R</a></li>
+            <li><a href="https://posit.co/download/rstudio/">Download RStudio</a></li>
+        </ul>
+    </li>
+    <li>Download the R script file from the link below:
+        <ul>
+            <li><a href="code.R">Download R Code</a></li>
+        </ul>
+    </li>
+    <li>Install the required R packages by running the following commands in your RStudio console:
+        <pre>
+install.packages(c("ggplot2", "dplyr", "readr"))
+        </pre>
+    </li>
+    <li>If the code requires a specific dataset, download the dataset and place it in the same directory as the R script. For example:
+        <ul>
+            <li>Download data from: <a href="link_to_dataset">Dataset Link</a></li>
+        </ul>
+    </li>
+    <li>Open the `code.R` file in RStudio.</li>
+    <li>Run the script line by line or use the "Source" button in RStudio to execute the entire script.</li>
+</ol>
     
     <p><a href="../index.html">Back to Home Page</a></p>
 </body>
