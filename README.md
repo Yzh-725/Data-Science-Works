@@ -26,8 +26,10 @@ Follow these steps to reproduce the analysis:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/Yzh-725/Data-Science-works
+   
 2.**Install required R libraries**: 
   Use the following command in R to install the necessary packages:install.packages(c("dplyr", "tidyr", "ggplot2", "car", "lmtest"))
+  
 3.**Run the scripts**:Open Match stats1.R in RStudio.
   Set the working directory to the repository root.
   Run each section of the script sequentially to preprocess the data, perform EDA, and build regression models.
