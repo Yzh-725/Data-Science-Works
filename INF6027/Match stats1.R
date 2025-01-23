@@ -11,7 +11,7 @@ library(car) # For VIF in model diagnostics
 #STEP 2: LOAD DATASET
 #===============================================================================
 # Read data
-df <- read.csv('Match player statistics.csv')
+df <- read.csv('Match_player_statistics.csv')
 
 #===============================================================================
 #STEP 3: CREATE A DATAFRAME FOR IMPORTANT MATCH STATISTICS
